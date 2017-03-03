@@ -1,5 +1,3 @@
-package Solved;
-
 import java.util.Scanner;
 
 public class No520B {

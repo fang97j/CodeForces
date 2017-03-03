@@ -1,5 +1,3 @@
-package Solved;
-
 import java.math.BigInteger;
 import java.util.Scanner;
 
