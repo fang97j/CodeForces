@@ -59,12 +59,12 @@ int main() {
     double det = I.x * J.y - I.y * J.x;
     double dot = I.x * J.x + I.y * J.y;
 
-    // clockwise angle i to j
+    // anti-clockwise angle from I to J
     double t = atan2(det, dot) * 180.0 / PI;
     if (t < 0)
       t += 360;
 
-    // make anti-clockwise
+    // make clockwise
     theta = min(theta, 360 - t);
   }
   if (theta >= 360)
